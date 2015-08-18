@@ -53,8 +53,8 @@ tar xzf /path/to/node-<version>-<platform>-<arch>.tar.gz
 Or system-wide with:
 
 ```sh
-cd /usr/local && tar --strip-components 1 -xzf \
-                    /path/to/node-<version>-<platform>-<arch>.tar.gz
+tar -xzC /usr/local --strip-components 1 \
+                    -f /path/to/node-<version>-<platform>-<arch>.tar.gz
 ```
 
 ### To run the tests:
