@@ -564,6 +564,8 @@ Example:
          O: 'node.js',
          OU: 'Test TLS Certificate',
          CN: 'localhost' },
+      modulus: '...hex representation of modulus...',
+      exponent: '10001', // 0x10001
       valid_from: 'Nov 11 09:52:22 2009 GMT',
       valid_to: 'Nov  6 09:52:22 2029 GMT',
       fingerprint: '2A:7A:C2:DD:E5:F9:CC:53:72:35:99:7A:02:5A:71:38:52:EC:8A:DF' }
