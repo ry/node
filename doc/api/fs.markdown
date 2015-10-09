@@ -209,7 +209,7 @@ the completion callback.
 
 Synchronous link(2). Returns `undefined`.
 
-## fs.symlink(srcpath, dstpath[, type], callback)
+## fs.symlink(destination, path[, type], callback)
 
 Asynchronous symlink(2). No arguments other than a possible exception are given
 to the completion callback.
@@ -218,7 +218,7 @@ is `'file'`) and is only available on Windows (ignored on other platforms).
 Note that Windows junction points require the destination path to be absolute.  When using
 `'junction'`, the `destination` argument will automatically be normalized to absolute path.
 
-## fs.symlinkSync(srcpath, dstpath[, type])
+## fs.symlinkSync(destination, path[, type])
 
 Synchronous symlink(2). Returns `undefined`.
 
